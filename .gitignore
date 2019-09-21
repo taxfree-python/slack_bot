@@ -1,4 +1,5 @@
 .vscode/
 .DS_Store
 .gitignore
-venv
+venv/
+bots/slackbot_settings.py
