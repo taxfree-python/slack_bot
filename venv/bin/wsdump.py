@@ -1,4 +1,4 @@
-#!/Users/taxfree/python/slackBot/venv/bin/python3
+#!/Users/taxfree/python/slackBot/venv/bin/python
 
 import argparse
 import code
