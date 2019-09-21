@@ -4,12 +4,13 @@ sys.path.append('/Users/taxfree/python/slackbot/bot_function')
 import today
 import kawaii
 import fizzbuzz
+import weather
 
 @respond_to('today')
 def when_today(message):
     message.reply(today.when_today(today))
 
-@respond_to('are you ok')
+@respond_to('ok')
 def status(message):
     message.reply("OK")
 
@@ -25,3 +26,7 @@ def kawaii_reply(message):
 def fizzbuzz_reply(message):
     text = message.body['text']
     message.reply(fizzbuzz.fizzbuzz(text))
+
+@respond_to('weather')
+def weather_reply(message):
+    message.reply(weather.tenki(message))
