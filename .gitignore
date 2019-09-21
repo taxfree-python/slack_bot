@@ -1,5 +1,9 @@
 .vscode/
 .DS_Store
 .gitignore
-venv/
-bots/slackbot_settings.py
+bin/
+include/
+lib/
+local/
+share/
+pip-selfcheck.json
