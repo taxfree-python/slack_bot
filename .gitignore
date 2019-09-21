@@ -1,9 +1,4 @@
 .vscode/
 .DS_Store
 .gitignore
-bin/
-include/
-lib/
-local/
-share/
-pip-selfcheck.json
+/venv
