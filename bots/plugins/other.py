@@ -1,6 +1,6 @@
 from slackbot.bot import respond_to
 import sys
-sys.path.append('/Users/taxfree/python/slackbot/bot_function')
+sys.path.append('/slackbot/bot_function')
 import today
 import kawaii
 import fizzbuzz

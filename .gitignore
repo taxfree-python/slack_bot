@@ -1,4 +1,4 @@
 .vscode/
 .DS_Store
 .gitignore
-/venv/venv-threading-prac/*
+/venv-threading-prac/*
